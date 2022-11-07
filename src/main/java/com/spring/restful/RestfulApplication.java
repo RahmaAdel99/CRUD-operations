@@ -12,8 +12,8 @@ public class RestfulApplication {
 		SpringApplication.run(RestfulApplication.class, args);
 	}
 
-	@Bean
-	public RestTemplate getRestTemplete(){
-		return new RestTemplate();
-	}
+// 	@Bean
+// 	public RestTemplate getRestTemplete(){
+// 		return new RestTemplate();
+// 	}
 }
